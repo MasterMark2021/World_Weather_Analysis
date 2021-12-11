@@ -39,3 +39,28 @@ Create a heatmap for the new DataFrame.
 Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
 Store the name of the first hotel in the DataFrame.
 Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city.
+
+
+Notes : We use the geographic coordinate system (GCS) to reference any point on Earth by its latitude and longitude coordinates.
+
+Latitudes are imaginary lines on Earth that run parallel east to west and are measured in angular units called degrees, minutes, and seconds, with 60 minutes in a degree and 60 seconds in a minute. Sometimes a latitude is referred to as a parallel. Consider, for example, the embattled 38th parallel (38° north) in East Asia that roughly demarcates North Korea and South Korea.
+
+The equator is an imaginary line around the middle of the earth that is equidistant from the North and South Poles and has a latitude of 0°. The equator splits Earth into Northern and Southern Hemispheres.
+
+Longitudes are imaginary lines on Earth that run from the North to the South Poles and are called meridians. The prime meridian represents zero meridian, the origin for longitude coordinates, and splits Earth into the Eastern and Western Hemispheres.
+
+All together, the lines of latitude (parallels) and longitude (meridians) make up a geographic grid, as if the Earth were wrapped in graph paper with intersecting horizontal and vertical lines mapping to specific locations.
+
+GCS makes it possible to pinpoint any place on Earth by providing its precise address, which is the intersection of its latitude and longitude lines.
+
+How to generate random numbers!
+
+ let's register for an OpenWeatherMap API key, a token granting access, and use it to retrieve weather data.
+
+WeatherAPI Keys : f8acd2abb732da069aba02524a9941a2
+
+site : https://home.openweathermap.org/api_keys
+
+Current weather data
+
+One format we can use to parse data is JavaScript Object Notation (JSON). The JSON format is also referred to as an "object" or "JSON object." The data inside a JSON object opens and closes with curly braces, much like a Python dictionary. Inside the JSON object is a collection of dictionaries and arrays.
