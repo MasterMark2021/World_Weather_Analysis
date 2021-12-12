@@ -86,3 +86,21 @@ x = independent variable
 y = dependent variable
 m = slope
 b= y intercept 
+
+Linear regression is used to find a relationship between a dependent variable and one or more independent variables. The trick is to find something (a dependent variable) that depends on something else (the independent variable) and plot that relationship.
+
+
+
+
+Alternatively, you can install gmaps using pip. Follow these steps:
+
+First, make sure you have enabled "ipywidgets" widgets extension with the following command.
+
+$ jupyter nbextension enable --py --sys-prefix widgetsnbextension
+Install gmaps with the following command:
+
+$ pip install gmaps
+Tell Jupyter to load the widgetsnbextension by running the following command:
+
+$ jupyter nbextension enable --py --sys-prefix gmaps
+Now you are ready to use your Google Maps and Places API key!
